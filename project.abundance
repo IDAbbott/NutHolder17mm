@@ -435,14 +435,14 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.0819672131147541,
-      "y": 0.34663865546218486,
+      "x": 0.07832422586520947,
+      "y": 0.32983193277310924,
       "uniqueID": "d2492212-c28d-478d-974d-b8edb05faf9d",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 19,
-          "currentEquation": "19"
+          "ioValue": 21,
+          "currentEquation": "21"
         }
       ]
     },
@@ -469,7 +469,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-circle-9.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+            "geometry": "extrude-circle-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
             "dimension": "3D",
             "tags": [],
             "plane": {
