@@ -24,11 +24,13 @@
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 6
+          "ioValue": 6,
+          "currentEquation": "6"
         },
         {
           "name": "diameter",
-          "ioValue": 18
+          "ioValue": 19,
+          "currentEquation": "19"
         }
       ]
     },
@@ -246,7 +248,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-polysides-9-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-0",
+            "geometry": "move-extrude-polysides-9.5-6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-0",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -416,7 +418,7 @@
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "STEP"
+          "ioValue": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -427,7 +429,7 @@
           "ioValue": "NutHolder17mm"
         }
       ],
-      "type": "STEP",
+      "type": "STL",
       "resolution": 96,
       "importIndex": 0,
       "partName": "NutHolder17mm"
@@ -441,8 +443,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 21,
-          "currentEquation": "21"
+          "ioValue": 23,
+          "currentEquation": "23"
         }
       ]
     },
@@ -469,7 +471,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-circle-10.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+            "geometry": "extrude-circle-11.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
             "dimension": "3D",
             "tags": [],
             "plane": {
