@@ -293,8 +293,8 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.6766848816029144,
-      "y": 0.45798319327731096,
+      "x": 0.6712204007285975,
+      "y": 0.4432773109243697,
       "uniqueID": "b8fc01b6-29c9-44b6-b809-8780c767e8c4",
       "ioValues": []
     },
@@ -383,8 +383,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ]
     },
@@ -410,13 +409,11 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 15,
-          "currentEquation": "15"
+          "ioValue": 15
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -437,13 +434,11 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 180,
-          "currentEquation": "180"
+          "ioValue": 180
         }
       ]
     },
@@ -456,8 +451,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 35,
-          "currentEquation": "35"
+          "ioValue": 35
         }
       ]
     },
@@ -502,6 +496,31 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.703096539162113,
+      "y": 0.6848739495798319,
+      "uniqueID": "4a6dcc7f-a358-448c-bb89-a99db6d477e8",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "NutHolder17mm"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "NutHolder17mm"
     }
   ],
   "allConnectors": [
@@ -558,6 +577,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "b8fc01b6-29c9-44b6-b809-8780c767e8c4",
       "ap2ID": "da30125e-97bb-4dc2-a344-a3b2d19e9154"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "b8fc01b6-29c9-44b6-b809-8780c767e8c4",
+      "ap2ID": "4a6dcc7f-a358-448c-bb89-a99db6d477e8"
     },
     {
       "ap1Name": "geometry",
