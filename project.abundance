@@ -16,33 +16,6 @@
       "ioValues": []
     },
     {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.08105646630236794,
-      "y": 0.3697478991596639,
-      "uniqueID": "8bda113c-6fb9-4530-84f5-cc52be512cf8",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 19
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.17122040072859745,
-      "y": 0.3907563025210084,
-      "uniqueID": "3932cc0d-0f2e-460b-afee-9e5e067c53da",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
-    },
-    {
       "atomType": "RegularPolygon",
       "name": "RegularPolygon",
       "x": 0.08105646630236794,
@@ -89,8 +62,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -103,8 +75,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 14,
-          "currentEquation": "14"
+          "ioValue": 14
         }
       ]
     },
@@ -139,69 +110,6 @@
         {
           "name": "height",
           "ioValue": 3
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "name": "Assembly",
-      "x": 0.331511839708561,
-      "y": 0.2647058823529412,
-      "uniqueID": "d79d858e-29b9-4acf-9654-51f8fdec8c6a",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "extrude-circle-17.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3",
-            "dimension": "3D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": {
-            "geometry": "extrude-circle-9.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
-            "dimension": "3D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
         }
       ]
     },
@@ -299,13 +207,11 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
-          "ioValue": -90,
-          "currentEquation": "-90"
+          "ioValue": -90
         }
       ]
     },
@@ -326,35 +232,9 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         }
       ]
-    },
-    {
-      "atomType": "Export",
-      "name": "Export",
-      "x": 0.703096539162113,
-      "y": 0.6848739495798319,
-      "uniqueID": "4a6dcc7f-a358-448c-bb89-a99db6d477e8",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "NutHolder17mm"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "NutHolder17mm"
     },
     {
       "atomType": "Assembly",
@@ -392,7 +272,30 @@
         },
         {
           "name": "Shape 2",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "extrude-circle-7-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "Shape 3",
@@ -503,21 +406,60 @@
           }
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.7231329690346083,
+      "y": 0.6596638655462185,
+      "uniqueID": "04422ea9-9b76-40cd-8a1f-e6c3046728b4",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "NutHolder17mm"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "NutHolder17mm"
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.08378870673952642,
+      "y": 0.3508403361344538,
+      "uniqueID": "d2492212-c28d-478d-974d-b8edb05faf9d",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.1837887067395264,
+      "y": 0.3508403361344538,
+      "uniqueID": "2d1f822e-ab2f-4cd2-8eea-d05862379661",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "8bda113c-6fb9-4530-84f5-cc52be512cf8",
-      "ap2ID": "3932cc0d-0f2e-460b-afee-9e5e067c53da"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 4",
-      "ap1ID": "3932cc0d-0f2e-460b-afee-9e5e067c53da",
-      "ap2ID": "d79d858e-29b9-4acf-9654-51f8fdec8c6a"
-    },
     {
       "ap1Name": "geometry",
       "ap2Name": "geometry",
@@ -558,19 +500,7 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "b8fc01b6-29c9-44b6-b809-8780c767e8c4",
-      "ap2ID": "4a6dcc7f-a358-448c-bb89-a99db6d477e8"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "Shape 1",
-      "ap1ID": "6201ddd5-98bf-4cec-b10f-545f4ea72428",
-      "ap2ID": "d79d858e-29b9-4acf-9654-51f8fdec8c6a"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry1",
-      "ap1ID": "d79d858e-29b9-4acf-9654-51f8fdec8c6a",
-      "ap2ID": "b8fc01b6-29c9-44b6-b809-8780c767e8c4"
+      "ap2ID": "04422ea9-9b76-40cd-8a1f-e6c3046728b4"
     },
     {
       "ap1Name": "geometry",
@@ -637,6 +567,12 @@
       "ap2Name": "geometry2",
       "ap1ID": "aacbdff0-5482-40f7-9fc9-ee906d192c65",
       "ap2ID": "b8fc01b6-29c9-44b6-b809-8780c767e8c4"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "d2492212-c28d-478d-974d-b8edb05faf9d",
+      "ap2ID": "2d1f822e-ab2f-4cd2-8eea-d05862379661"
     }
   ],
   "unitsKey": "MM",
