@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "NutHolder17mm",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "341cdea4-b516-4ff3-90dd-628566d3a22f",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
